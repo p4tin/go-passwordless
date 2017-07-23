@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code</title>
+</head>
+<body>
+<h1>Code</h1>
+<form action="/auth" method="POST">
+    Enter Code from Message:<br>
+    <input type="hidden" name="email" value="{{ . }}">
+    <input type="text" name="token" value="">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
